@@ -16,5 +16,5 @@
     <hr>
 
     <button type="submit" class="btn btn-success">Actualizar</button>
-    <a href="{{ route('crud.index') }}" class="btn btn-secondary">Regresar</a>
+   
 </form>

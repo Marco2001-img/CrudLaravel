@@ -20,5 +20,5 @@ Route::post('/agregar', [PersonaController::class, 'create'])->name('crud.create
 Route::get('/borrar-{id}', [PersonaController::class, 'detroy'])->name('crud.delete');
 
 //Modificar
-Route::get('/Modificacion/{id}', [ModificarController::class, 'index']);
+Route::get('/Modificar-{id}', [ModificarController::class, 'index'])->name('crud.verUpdate');
 Route::put('/actualizar-{id}', [ModificarController::class, 'update'])->name('crud.update');

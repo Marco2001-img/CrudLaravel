@@ -14,6 +14,7 @@ class ModificarController extends Controller
 
     // Pasar los datos a la vista
     return view('Modificar', compact('persona'));
+   //return view('Modificar');
 }
 
 

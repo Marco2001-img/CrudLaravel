@@ -71,7 +71,7 @@
       <td>{{$item->nombre}}</td>
       <td>{{$item->apellido}}</td>
       <td>{{$item->edad}}</td>
-      <td><a href="/Modificacion" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a></td>
+      <td><a href="/Modificar-{{$item->id}}" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a></td>
       <td><a href="{{route('crud.delete', $item->id)}}" class="btn btn-danger"><i class="bi bi-trash3"></i></a></td>
     </tr>
     @endforeach
